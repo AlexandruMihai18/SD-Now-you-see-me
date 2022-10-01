@@ -1,0 +1,40 @@
+**Nume: Alexandru Mihai**
+**Grupă:313CA**
+
+## Tema 1 - Now You See Me
+
+### Description:
+
+* This project was meant to develop one's abilities of the handling and 
+manipulating linked lists by requiring the implementation of multiple
+decks of cards.
+
+* Both the list of decks and the decks themselves (lists of cards) were
+stored generically using the common doubly linked list data structure.
+
+* The parsing function used to handle the occuring syntax errors was strtok,
+which was used to detect an incorrect number of parameters, or unrecognized
+commands.
+
+* Additionally, the decks could be manipulated by several operations, such
+as: shuffling a deck, merging two decks, splitting the deck into 2 smaller ones,
+reversing the order of the cards inside and sorting the consisting cards. 
+
+* The sort function used a very trivial sorting algorithm, always choosing the
+minimum card and adding it to the beginning of the deck and working it's way onwards 
+to sort the rest of the cards.
+
+### Personal comments:
+
+* The project aided me to better understand linked list and pointers in general,
+being required to pay close attention to memory resources and a more abstract
+thinking.
+
+* Most of the functions were implemented with a great attention to time complexity
+and with a good, yet neglecting attention to memory resources, excepting the 
+sort function which used a tremendously bad algorithm both regarding to the time and
+memory complexity (although better than bogo sort on average).
+
+### References:
+
+1. The DIE macro (https://ocw.cs.pub.ro/courses/so/laboratoare/resurse/die)
